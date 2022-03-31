@@ -1,0 +1,18 @@
+/*
+* completes the interface font change
+* the "SF Compact Text" is installed on the PC
+*/
+
+* {
+    font-family: "SF Compact Text" !important;
+}
+
+
+/*
+* requires the installation of "ttf-material-design-icons"
+* i installed it using paru on manjaro
+*/
+
+.google-material-icons {
+    font-family: "Material Icons" !important;
+}

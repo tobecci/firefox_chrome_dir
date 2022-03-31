@@ -1,0 +1,16 @@
+/* 
+* set the firefox interface font 
+* NB: this setting does not change it completely
+* the complete change is in the ./userContent.css file
+*/
+
+* {
+    font-family: "SF Compact Text" !important;
+}
+
+
+/* hides the tabbar on firefox */
+
+#TabsToolbar {
+    visibility: collapse;
+}
