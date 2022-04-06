@@ -1,18 +1,18 @@
-/*
-* completes the interface font change
-* the "SF Compact Text" is installed on the PC
-*/
-
-* {
-    font-family: "SF Compact Text" !important;
+@-moz-document domain(web.whatsapp.com)
+{
+    *{
+        font-family: "SF Compact Text" !important;
+    }
 }
 
 
-/*
-* requires the installation of "ttf-material-design-icons"
-* i installed it using paru on manjaro
-*/
-
-.google-material-icons {
-    font-family: "Material Icons" !important;
-}
+/*@-moz-document url(http://www.w3.org/),*/
+/*url-prefix(http://www.w3.org/Style/),*/
+/*domain(mozilla.org)*/
+/*{*/
+/* CSS rules here apply to:
+   + The page "http://www.w3.org/".
+   + Any page whose URL begins with "http://www.w3.org/Style/"
+   + Any page whose URL's host is "mozilla.org" or ends with
+     ".mozilla.org"
+ */
