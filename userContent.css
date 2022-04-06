@@ -5,6 +5,12 @@
     }
 }
 
+@-moz-document url-prefix(about:){
+    *{
+        font-family: "SF Compact Text" !important;
+    }
+}
+
 
 /*@-moz-document url(http://www.w3.org/),*/
 /*url-prefix(http://www.w3.org/Style/),*/
