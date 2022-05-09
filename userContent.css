@@ -1,72 +1,72 @@
 @-moz-document domain(web.whatsapp.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document url-prefix(about:) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document url-prefix(moz-extension://) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document url-prefix(https://www.google.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(duckduckgo.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(dev.to) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(twitter.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(facebook.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(youtube.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(firefox.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(mozilla.org) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 }
 
 @-moz-document domain(stackoverflow.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 
     code, code > * {
@@ -76,7 +76,7 @@
 
 @-moz-document domain(github.com) {
     * {
-        font-family: "SF Compact Text" !important;
+        font-family: "SF UI Text" !important;
     }
 
     code, code > * {
@@ -89,6 +89,18 @@
 
     table, tbody, td, td > span {
         font-family: "SF Mono" !important;
+    }
+}
+
+@-moz-document domain(notion.so) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document domain(notion.site) {
+    * {
+        font-family: "SF UI Text" !important;
     }
 }
 
