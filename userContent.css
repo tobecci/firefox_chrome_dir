@@ -104,6 +104,11 @@
     }
 }
 
+@-moz-document domain(teams.microsoft.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
 
 /*@-moz-document url(http://www.w3.org/),*/
 /*url-prefix(http://www.w3.org/Style/),*/
