@@ -92,6 +92,46 @@
     }
 }
 
+@-moz-document domain(gitlab.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+
+    code, code > *, code > * > * {
+        font-family: "SF Mono" !important;
+    }
+
+    .blob-code-content, blob-code-content > * {
+        font-family: "SF Mono" !important;
+    }
+
+    table, tbody, td, td > span {
+        font-family: "SF Mono" !important;
+    }
+}
+
+@-moz-document domain(git.iga.gov.bh) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+
+    code, code > *, code > * > * {
+        font-family: "SF Mono" !important;
+    }
+
+    .blob-code-content, blob-code-content > * {
+        font-family: "SF Mono" !important;
+    }
+
+    table, tbody, td, td > span {
+        font-family: "SF Mono" !important;
+    }
+
+    i {
+        font-family: FontAwesome !important;
+    }
+}
+
 @-moz-document domain(notion.so) {
     * {
         font-family: "SF UI Text" !important;
