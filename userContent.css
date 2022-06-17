@@ -32,6 +32,10 @@
     * {
         font-family: "SF UI Text" !important;
     }
+
+    code, code > *, code > * > * {
+        font-family: "SF Mono" !important;
+    }
 }
 
 @-moz-document domain(twitter.com) {
@@ -147,6 +151,20 @@
 @-moz-document domain(teams.microsoft.com) {
     * {
         font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document domain(hostinger.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+
+    .material-icons{
+        font-family: 'Material Icons' !important;
+    }
+
+    .material-icons-outlined{
+        font-family: 'Material Icons Outlined' !important;
     }
 }
 
