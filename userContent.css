@@ -164,6 +164,10 @@
     * {
         font-family: "SF UI Text" !important;
     }
+
+    i{
+        font-family: FabricMDL2Icons !important;
+    }
 }
 
 @-moz-document domain(hostinger.com) {
