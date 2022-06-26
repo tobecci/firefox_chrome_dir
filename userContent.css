@@ -154,6 +154,18 @@
     }
 }
 
+@-moz-document domain(outlook.office365.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document domain(office.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
 @-moz-document domain(hostinger.com) {
     * {
         font-family: "SF UI Text" !important;
