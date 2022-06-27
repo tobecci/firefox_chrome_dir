@@ -14,6 +14,22 @@
     * {
         font-family: "SF UI Text" !important;
     }
+    .fa, .fas {
+        font-family: "Font Awesome 5 Free" !important;
+      }
+
+      .bwi {
+        font-family: "bwi-font" !important;
+      }
+
+      .bwi {
+        font-family: "bwi-font" !important;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      }
 }
 
 @-moz-document url-prefix(https://www.google.com) {
