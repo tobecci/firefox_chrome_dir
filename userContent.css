@@ -200,6 +200,13 @@
     }
 }
 
+@-moz-document domain(archlinux.org) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+
 /*@-moz-document url(http://www.w3.org/),*/
 /*url-prefix(http://www.w3.org/Style/),*/
 /*domain(mozilla.org)*/
