@@ -204,6 +204,10 @@
     * {
         font-family: "SF UI Text" !important;
     }
+
+    pre, code, pre>code{
+        font-family: "SF Mono" !important;
+    }
 }
 
 
