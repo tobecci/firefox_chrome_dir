@@ -4,6 +4,18 @@
     }
 }
 
+@-moz-document domain(discord.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document domain(linkedin.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
 @-moz-document url-prefix(about:) {
     * {
         font-family: "SF UI Text" !important;
@@ -16,20 +28,20 @@
     }
     .fa, .fas {
         font-family: "Font Awesome 5 Free" !important;
-      }
+    }
 
-      .bwi {
+    .bwi {
         font-family: "bwi-font" !important;
-      }
+    }
 
-      .bwi {
+    .bwi {
         font-family: "bwi-font" !important;
         font-style: normal;
         font-weight: normal;
         font-variant: normal;
         text-transform: none;
         line-height: 1;
-      }
+    }
 }
 
 @-moz-document url-prefix(https://www.google.com) {
@@ -174,6 +186,9 @@
     * {
         font-family: "SF UI Text" !important;
     }
+    i, ms-Icon, ms-Button-icon {
+        font-family: "controlIcons";
+    }
 }
 
 @-moz-document domain(office.com) {
@@ -181,7 +196,7 @@
         font-family: "SF UI Text" !important;
     }
 
-    i{
+    i {
         font-family: FabricMDL2Icons !important;
     }
 }
@@ -191,11 +206,11 @@
         font-family: "SF UI Text" !important;
     }
 
-    .material-icons{
+    .material-icons {
         font-family: 'Material Icons' !important;
     }
 
-    .material-icons-outlined{
+    .material-icons-outlined {
         font-family: 'Material Icons Outlined' !important;
     }
 }
@@ -205,7 +220,7 @@
         font-family: "SF UI Text" !important;
     }
 
-    pre, code, pre>code{
+    pre, code, pre>code {
         font-family: "SF Mono" !important;
     }
 }
