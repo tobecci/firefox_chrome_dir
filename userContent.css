@@ -22,6 +22,51 @@
     }
 }
 
+/* google mail styles  begin */
+
+@-moz-document url-prefix(mail.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document url-prefix(https://mail.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document url-prefix(https://www.mail.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+/* google mail styles ends */
+
+/* google keep styles  begin */
+
+@-moz-document url-prefix(keep.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document url-prefix(https://keep.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+@-moz-document url-prefix(https://www.keep.google.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+}
+
+/* google keep styles ends */
+
+
 @-moz-document url-prefix(moz-extension://) {
     * {
         font-family: "SF UI Text" !important;
@@ -225,6 +270,15 @@
     }
 }
 
+@-moz-document domain(reddit.com) {
+    * {
+        font-family: "SF UI Text" !important;
+    }
+
+    code, code > * {
+        font-family: "SF Mono" !important;
+    }
+}
 
 /*@-moz-document url(http://www.w3.org/),*/
 /*url-prefix(http://www.w3.org/Style/),*/
