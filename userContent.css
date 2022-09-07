@@ -50,17 +50,29 @@
     * {
         font-family: "SF UI Text" !important;
     }
+
+    .scSharedMaterialbuttonroot{
+        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
+    }
 }
 
 @-moz-document url-prefix(https://keep.google.com) {
     * {
         font-family: "SF UI Text" !important;
     }
+
+    .scSharedMaterialbuttonroot{
+        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
+    }
 }
 
 @-moz-document url-prefix(https://www.keep.google.com) {
     * {
         font-family: "SF UI Text" !important;
+    }
+
+    .scSharedMaterialbuttonroot{
+        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
     }
 }
 
