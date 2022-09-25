@@ -4,8 +4,15 @@
 * the complete change is in the ./userContent.css file
 */
 
+
+:root {
+    --text-font: "circular std medium";
+    --code-font: "fira code medium";
+ }
+
+
 * {
-    font-family: "SF UI Text" !important;
+    font-family: var(--text-font) !important;
 }
 
 
