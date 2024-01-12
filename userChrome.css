@@ -6,8 +6,8 @@
 
 
 :root {
-    --text-font: "circular std medium";
-    --code-font: "fira code medium";
+    --text-font: "SF Compact Text";
+    --code-font: "SF Mono";
  }
 
 
@@ -18,6 +18,6 @@
 
 /* hides the tabbar on firefox */
 
-#TabsToolbar {
+/* #TabsToolbar {
     visibility: collapse;
-}
+} */

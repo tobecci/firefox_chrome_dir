@@ -1,326 +1,16 @@
-:root {
-    --text-font: "circular std medium";
-    --code-font: "fira code medium";
- }
-
-@-moz-document domain(web.whatsapp.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(app.slack.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(mail.zoho.com) {
-    *:not(i){
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(discord.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(linkedin.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document url-prefix(about:) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-/* google mail styles  begin */
-
-@-moz-document url-prefix(mail.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document url-prefix(https://mail.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document url-prefix(https://www.mail.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-/* google mail styles ends */
-
-/* google keep styles  begin */
-
-@-moz-document url-prefix(keep.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    .scSharedMaterialbuttonroot{
-        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
-    }
-}
-
-@-moz-document url-prefix(https://keep.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    .scSharedMaterialbuttonroot{
-        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
-    }
-}
-
-@-moz-document url-prefix(https://www.keep.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    .scSharedMaterialbuttonroot{
-        font-family: "Google Sans","Google Sans Text",Roboto,Arial,sans-serif !important;
-    }
-}
-
-/* google keep styles ends */
-
-
-@-moz-document url-prefix(moz-extension://) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-    .fa, .fas {
-        font-family: "Font Awesome 5 Free" !important;
-    }
-
-    .bwi {
-        font-family: "bwi-font" !important;
-    }
-
-    .bwi {
-        font-family: "bwi-font" !important;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-    }
-}
-
-@-moz-document url-prefix(https://www.google.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(duckduckgo.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(dev.to) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > *, code > * > * {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(twitter.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(facebook.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(youtube.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(firefox.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(mozilla.org) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(stackoverflow.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > * {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(github.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > * {
-        font-family: var(--code-font) !important;
-    }
-
-    .blob-code-content, blob-code-content > * {
-        font-family: var(--code-font) !important;
-    }
-
-    table, tbody, td, td > span {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(gitlab.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > *, code > * > * {
-        font-family: var(--code-font) !important;
-    }
-
-    .blob-code-content, blob-code-content > * {
-        font-family: var(--code-font) !important;
-    }
-
-    table, tbody, td, td > span {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(git.iga.gov.bh) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > *, code > * > * {
-        font-family: var(--code-font) !important;
-    }
-
-    .blob-code-content, blob-code-content > * {
-        font-family: var(--code-font) !important;
-    }
-
-    table, tbody, td, td > span {
-        font-family: var(--code-font) !important;
-    }
-
-    i {
-        font-family: FontAwesome !important;
-    }
-}
-
-@-moz-document domain(notion.so) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(notion.site) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(teams.microsoft.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
-@-moz-document domain(outlook.office365.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-    i, ms-Icon, ms-Button-icon {
-        font-family: "controlIcons";
-    }
-}
-
-@-moz-document domain(office.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    i {
-        font-family: FabricMDL2Icons !important;
-    }
-}
-
-@-moz-document domain(hostinger.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    .material-icons {
-        font-family: 'Material Icons' !important;
-    }
-
-    .material-icons-outlined {
-        font-family: 'Material Icons Outlined' !important;
-    }
-}
-
-@-moz-document domain(archlinux.org) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    pre, code, pre>code {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(reddit.com) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-
-    code, code > * {
-        font-family: var(--code-font) !important;
-    }
-}
-
-@-moz-document domain(atlassian.net) {
-    *:not(i) {
-        font-family: var(--text-font) !important;
-    }
-}
-
 /* 
 sample to use
-@-moz-document domain() {
-    *:not(i) {
+
+@-moz-document domain(domain.com) {
+    *:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
         font-family: var(--text-font) !important;
     }
+
+	code *, .code :not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
+        font-family: var(--code-font) !important;
+	}
+}
+
 } */
 
 
@@ -335,3 +25,24 @@ sample to use
    + Any page whose URL's host is "mozilla.org" or ends with
      ".mozilla.org"
  */
+
+
+ 
+
+:root {
+    --text-font: "SF Compact Text";
+    --code-font: "SF Mono";
+ }
+
+
+/* add styles for all domains and then add exceptions to css `:not list` as i go, i no like stress */
+@-moz-document url-prefix()
+{
+    *:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
+        font-family: var(--text-font) !important;
+    }
+
+	code *, .code :not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
+        font-family: var(--code-font) !important;
+	}
+}
