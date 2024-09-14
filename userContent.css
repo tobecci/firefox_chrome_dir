@@ -27,22 +27,23 @@ sample to use
  */
 
 
- 
+
 
 :root {
-    --text-font: "SF Compact Text";
-    --code-font: "SF Mono";
- }
+	--text-font: "Circular Std Medium";
+	--code-font: "Fira Code Medium";
+}
 
 
 /* add styles for all domains and then add exceptions to css `:not list` as i go, i no like stress */
-@-moz-document url-prefix()
-{
-    *:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
-        font-family: var(--text-font) !important;
-    }
+@-moz-document url-prefix() {
+	*:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span) {
+		font-family: var(--text-font) !important;
+	}
 
-	code *, .code :not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot) {
-        font-family: var(--code-font) !important;
+	code *,
+	.code :not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span) {
+		font-family: var(--code-font) !important;
 	}
 }
+
