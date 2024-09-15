@@ -37,12 +37,11 @@ sample to use
 
 /* add styles for all domains and then add exceptions to css `:not list` as i go, i no like stress */
 @-moz-document url-prefix() {
-	*:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span) {
+	*:not(.code, code, code > *, i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span, img) {
 		font-family: var(--text-font) !important;
 	}
 
-	code *,
-	.code :not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span) {
+	code,.code:not(i, svg, .fa, .fas, .bwi, .scSharedMaterialbuttonroot, span, img) {
 		font-family: var(--code-font) !important;
 	}
 }
